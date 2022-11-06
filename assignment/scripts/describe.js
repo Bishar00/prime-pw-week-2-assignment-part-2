@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called number and we set it equal to 1 as a number
+// We increment the number with ++
+// We check if number is greater than or equal 2. 2 is greater than 1, so
+// We console.log 'no'.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it equal to Dane as a string
+// We check if name equals to Mary 
+// If yes we return Hi "Mary" with console.log
+// If not we return 'How do you do' with console.log
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make the variable secret and set it to nothing 
+// We make the variable code and set it equal to 123
+// We check what secret equals based on the code variable. 
+// If code equals to 123 than secret equals super 
+// IF code equals to 250 than secret equals to duper
+// We console log secret 
 
 //CODE
 /*
@@ -91,7 +93,9 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 
-*/
+// We create a variable called isstudent and set it equal to true
+// We create another variable called age and set it equal to 34
+// We create yet another variable called zip and set it equal to 
 
 
 
