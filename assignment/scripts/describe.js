@@ -95,7 +95,14 @@ if (isStudent === true && zip > 80000 ) {
 
 // We create a variable called isstudent and set it equal to true
 // We create another variable called age and set it equal to 34
-// We create yet another variable called zip and set it equal to 
+// We create yet another variable called zip and set it equal to 55407
+// We check if isStudent equals to true and zip is greater than 80000 
+// We console log 'you're a student on the West Coast'
+// We check if isStudent equals false or age is less than 30
+// We console log 'what are your hobbies'
+// We check if isStudent equals to true
+// We console.log 'Welcome to Prime'
+// We console.log 'How about the weather'
 
 
 
@@ -142,6 +149,12 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+// Fix -- 
+/* if mix is true both color should be purple
+// colorOne and colorTwo have wrong colors
+let colorOne = 'blue'
+let colorTwo = 'red';
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -154,7 +167,12 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-*/
+*/ 
+//Fix
+// The instruction say and instead of or 
+// if (temp > 39 && time >=4)
+// console. log ('throw away the food')
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -169,5 +187,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-*/
-
+*/ 
+//MinAge is greater not less and we also don't need console.log ('no entry')
+//if(minAge >= age)
+//  console.log('enter');
