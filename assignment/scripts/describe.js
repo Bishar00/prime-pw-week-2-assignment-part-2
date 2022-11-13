@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called number and we set it equal to 1 as a number
-// We increment the number with ++
-// We check if number is greater than or equal 2. 2 is greater than 1, so
-// We console.log 'no'.
+// We make a variable called name and equal it to 'dane'
+// We make a if statement if name equals exactly to Mary
+// console log hi mary if the statement is true 
+// the else statement tells us console log 'how do you do' if the statement isn't true
+// In this instant we console log how do you do 
 
 //CODE
 /*
@@ -45,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set it equal to Dane as a string
-// We check if name equals to Mary 
-// If yes we return Hi "Mary" with console.log
-// If not we return 'How do you do' with console.log
+// We make the variable called secret and set it to nothing 
+// We make the variable code and set it equal to 123
+// We check what secret equals based on the code variable. 
+// If code equals to 123 than secret equals super, code equak the code * 123
+// IF code equals to 250 than secret equals to duper
+// We console log what secret
+// In this case we log super 
 
 //CODE
 /*
@@ -70,12 +74,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make the variable secret and set it to nothing 
-// We make the variable code and set it equal to 123
-// We check what secret equals based on the code variable. 
-// If code equals to 123 than secret equals super 
-// IF code equals to 250 than secret equals to duper
-// We console log secret 
+// We create a variable called isstudent and set it equal to true
+// We create another variable called age and set it equal to 34
+// We create yet another variable called zip and set it equal to 55407
+// We check if isStudent equals to true and zip is greater than 80000 
+// We console log 'you're a student on the West Coast'
+// We check if isStudent equals false or age is less than 30
+// We console log 'what are your hobbies'
+// We check if isStudent equals to true
+// We console.log 'Welcome to Prime'
+// if none od it is true we console.log 'How about the weather'
+// In this case we console log welcome to prime
 
 //CODE
 /*
@@ -92,19 +101,6 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
-
-// We create a variable called isstudent and set it equal to true
-// We create another variable called age and set it equal to 34
-// We create yet another variable called zip and set it equal to 55407
-// We check if isStudent equals to true and zip is greater than 80000 
-// We console log 'you're a student on the West Coast'
-// We check if isStudent equals false or age is less than 30
-// We console log 'what are your hobbies'
-// We check if isStudent equals to true
-// We console.log 'Welcome to Prime'
-// We console.log 'How about the weather'
-
-
 
 
 // REVERSE
@@ -189,5 +185,8 @@ if(minAge <= age) {
 }
 */ 
 //MinAge is greater not less and we also don't need console.log ('no entry')
-//if(minAge >= age)
-//  console.log('enter');
+// if(age >= minAge){
+//  console.log('enter');} 
+// else { 
+// console. log ('no enter');}
+// The two console logs are switched in the wrong places.
